@@ -5,43 +5,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     
     <title>Kim Martinez</title>
 </head>
 <body>
+    <nav class="nav fixed-top justify-content-end small p-3">
+        <a class="nav-link text-reset" href="#">Hello</a>
+        <a class="nav-link text-reset" href="#">About</a>
+        <a class="nav-link text-reset" href="#">Work</a>
+        <a class="nav-link text-reset" href="#">Contact</a>
+    </nav>
+    <div class="bg-yellow"></div>
     <div class="container">
-        <h1 class="text-center mt-5 mb-5 pt-5 name">KIMBERLY MARTINEZ</h1>
-        <h3 class="text-center mt-5 mb-5">Web Design & Frontend Development Portfolio</h3>
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <a href="https://kimmartinez.github.io/software-solutions-website/" class="box-img">
-                    <div class="card m-1 shadow-sm border-light">
-                        <img class="img-fluid mt-5 mb-5 mr-2 ml-2 shadow-sm" src="img/softwaresolutions.png" alt="favero website">
-                    </div>
-                </a>
+        <div class="row top-row">
+            <div class="col-12 col-md-4 col-lg-4 mt-5 mb-5">
+                <h4>Hello!</h4>
+                <h4 style="white-space: nowrap;">I'm <span class="text-med">Kim Martinez</span>.</h4>
+                <h4 style="white-space: nowrap;">I build <span class="text-red text-med">web applications</span>.</h4>
             </div>
-            <div class="col-12 col-md-6">
-                <a href="https://kimmartinez.github.io/dinein/" class="box-img">
-                    <div class="card m-1 shadow-sm border-light">
-                        <img class="img-fluid mt-5 mb-5 mr-2 ml-2 shadow-sm" src="img/dinein.png" alt="favero website">
-                    </div>
-                </a>
+            <div class="col-12 col-md-8 col-lg-8 p-5">
+                <img src="img/diploma.png" alt="framed diploma icon" class="diploma">
+                <img src="img/avatar.png" alt="kim's avatar" style="max-height: 100vh;">
+
             </div>
-            <div class="col-12 col-md-6">
-                <a href="https://kimmartinez.github.io/sample-website/">
-                    <div class="card m-1 shadow-sm border-light">
-                        <img class="img-fluid mt-5 mb-5 mr-2 ml-2 shadow-sm" src="img/H.png" alt="favero website">
-                    </div>
-                </a>
-            </div>  
         </div>
-        <footer class="text-center mt-5 mb-5">
-            <h5>Contact me</h5>
-            <p>E. martinezkimberlyanne@gmail.com</p>
-        </footer>
+        <div class="row mt-5 mb-5">
+            <div class="col-12">
+                <h5 class="text-center text-med">About me</h5>
+                <div class="card-group border-light mt-5 mb-5">
+                    <div class="card border-none bg-gray p-3">
+                        <div class="card-body text-center">
+                            <h6 class="card-title text-med">Design</h6>
+                            <p class="card-text small">I value clean and simple design patterns.</p>
+                            <h6 class="card-text text-med text-left">Tools:</h6>
+                            <img src="img/adobexd.png" alt="Adobe XD" class="tool-icon">
+                            <img src="img/adobeillustrator.png" alt="Adobe Illustrator" class="tool-icon">
+                        </div>
+                    </div>
+                    <div class="card border-none border-left border-right bg-gray p-3">
+                        <div class="card-body text-center">
+                            <h6 class="card-title text-med">Development</h6>
+                            <p class="card-text small">I enjoy transforming design ideas into usable applications.</p>
+                            <h6 class="card-text text-med text-left">Languages:</h6>
+                            <p class="card-text small">HTML5, CSS, Javascript, PHP, Java, C++</p>
+                            <h6 class="card-text text-med text-left">Frameworks:</h6>
+                            <p class="card-text small">Laravel, Ionic, Bootstrap</p>
+                            <h6 class="card-text text-med text-left">Tools:</h6>
+                            <p class="card-text small">Brackets, Atom, Visual Studio Code</p>
+                        </div>
+                    </div>
+                    <div class="card border-none bg-gray p-3">
+                        <div class="card-body text-center">
+                            <h6 class="card-title text-med">Project Management</h6>
+                            <p class="card-text small">I value organization when working alone or in teams.</p>
+                            <h6 class="card-text text-med text-left">Tools:</h6>
+                            <img src="img/trello.png" alt="Trello" class="tool-icon">
+                            <img src="img/github.png" alt="Github" class="tool-icon">
+                            <img src="img/slack.png" alt="Slack" class="tool-icon">
+                            <img src="img/asana.png" alt="Asana" class="tool-icon" style="max-height: 4rem;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5 mb-5">
+            <div class="col-12 mb-4">
+                <h5 class="text-center text-med">View my recent project prototypes</h5>
+            </div>
+            <div class="col-12 col-lg-6 mb-4">
+                <div class="bg-gray p-4 text-center">
+                    <img src="img/softwaresolutions.png" alt="Software solutions website screen" class="screen mt-3 mb-4">
+                    <h6 class="text-med mt-3 mb-3">Software solutions website</h6>
+                    <a href="https://kimmartinez.github.io/software-solutions-website/" target="_blank" class="btn button-action text-white">View prototype</a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 mb-4">
+                <div class="bg-gray p-4 text-center">
+                    <img src="img/dinein.png" alt="Restaurant review blog screen" class="screen mt-3 mb-4">
+                    <h6 class="text-med mt-3 mb-3">Restaurant review blog</h6>
+                    <a href="https://kimmartinez.github.io/dinein/" target="_blank" class="btn button-action text-white">View prototype</a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 mb-4">
+                <div class="bg-gray p-4 text-center">
+                    <img src="img/H.png" alt="Sample business website screen" class="screen mt-3 mb-4">
+                    <h6 class="text-med mt-3 mb-3">Sample business website</h6>
+                    <a href="https://kimmartinez.github.io/sample-website/" target="_blank" class="btn button-action text-white">View prototype</a>
+                </div>
+            </div>
+        </div>
     </div>
+    <footer class="bg-white text-center p-5">
+        <h6 class="text-med mt-3">Contact me</h6>
+        <p class="mt-3">martinezkimberlyanne@gmail.com</p>
+        <a href="mailto:martinezkimberlyanne@gmail.com?Subject=Hello" class="btn button-mail text-white pl-4 pr-4">Send a message</a>
+    </footer>
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>

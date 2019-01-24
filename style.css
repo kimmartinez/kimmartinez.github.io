@@ -1,7 +1,86 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #454545;
+    background-color: #D6CEC2;
+    letter-spacing: 0.1rem;
 }
 
 .name {
     letter-spacing: 0.1rem;
+}
+
+.diploma {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    max-height: 8rem;
+    z-index: 1;
+}
+
+.top-row {
+    padding-top: 8rem;
+}
+
+.about-group {
+    background-color: #C1C1C1;
+    border-radius: 2rem;
+}
+
+.border-none {
+    border: none;
+}
+
+.tool-icon {
+    max-height: 5rem;
+    margin: 1rem;
+}
+
+.screen {
+    max-width: 90%;
+}
+
+.bg-yellow {
+    background-color: #F7E5B3;
+    height: 90vh;
+    width: 100vw;
+    position: absolute;
+}
+
+.bg-gray {
+    background-color: #F2F2F2;
+    border-radius: 2rem;
+}
+
+.bg-white {
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+.text-red {
+    color: #D84949;
+}
+
+.text-white {
+    color: #F2F2F2;
+}
+
+.text-med {
+    font-weight: 600;
+}
+
+.button-action {
+    background-color: #D97272;
+    font-size: 0.8rem;
+    letter-spacing: normal;
+}
+
+.button-mail {
+    background-color: #D97272;
+    letter-spacing: normal;
+}
+
+@media (max-width: 991.98px) {
+    .diploma {
+        display: none;
+    }
 }
