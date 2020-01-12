@@ -132,25 +132,6 @@ body {
   .brand {
     font-size: 3.5rem;
   }
-
-  /* .brand-action {
-    background-color: #353535;
-    color: #fff;
-    border-radius: 0;
-    padding: 0.5rem 1rem;
-    text-transform: uppercase;
-    vertical-align: bottom;
-    letter-spacing: 0.2rem;
-  }
-
-  .brand-action:hover {
-    color: #fff;
-  }
-
-  .content-wrap {
-    height: 100vh;
-    min-height: 600px;
-  } */
 }
 
 /* Wide Screens */
