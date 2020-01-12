@@ -55,12 +55,27 @@ body {
 
 .item {
   flex-grow: 1;
+  position: relative;
+  z-index: 10;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 2.5rem 0.5rem;
   color: rgba(255, 255, 255, 0.8);
   text-align: center;
+  transition: all .3s ease-in-out;
+}
+
+.item:hover {
+  flex-grow: 1.5;
+  z-index: 20;
+  box-shadow: 0 0 1.5rem rgba(0,0,0,.5);
+}
+
+.item:focus {
+  flex-grow: 1.5;
+  z-index: 20;
+  box-shadow: 0 0 1.5rem rgba(0,0,0,.5);
 }
 
 .item h5 {
