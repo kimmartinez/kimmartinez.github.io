@@ -134,6 +134,10 @@ form textarea {
   color: rgba(255, 255, 255, 0.8);
 }
 
+.pageclip-form__success {
+  background: rgba(214,206,194,0.7);
+}
+
 /* Small Mobile */
 @media (max-width: 320px) {
   .brand {
