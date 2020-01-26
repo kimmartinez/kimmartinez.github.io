@@ -82,6 +82,58 @@ body {
   margin-bottom: 0;
 }
 
+.modal-content {
+  background-color: #D6CEC2;
+  border-radius: 0;
+}
+
+.modal-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.modal-title {
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.close {
+  text-shadow: 0 1px 0 #353535;
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 10px 15px;
+  background-color: #D6CEC2;
+  border: 2px solid #353535;
+}
+
+form textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 10px 15px;
+  background-color: #D6CEC2;
+  border: 2px solid #353535;
+}
+
+.form-action {
+  padding: 12px 20px;
+  background-color: #353535;
+  border-radius: 0;
+  color: rgba(255, 255, 255, 0.8);
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+
+.form-action:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.form-action:focus {
+  color: rgba(255, 255, 255, 0.8);
+}
+
 /* Small Mobile */
 @media (max-width: 320px) {
   .brand {
