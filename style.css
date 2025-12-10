@@ -1,0 +1,27 @@
+body {
+    background: #efebe5;
+    font-family: "Manrope", sans-serif;
+    color: #4A4A4A;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+}
+
+.header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header .name {
+    font-weight: 900;
+}
+
+.header .logo {
+    width: 50px;
+    height: 30px;
+    float: right;
+}
