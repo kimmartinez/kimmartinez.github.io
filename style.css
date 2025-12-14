@@ -1,6 +1,6 @@
 body {
     background: #efebe5;
-    font-family: "Manrope", sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #4A4A4A;
 }
 
@@ -18,7 +18,7 @@ h3 {
 
 .header .name {
     font-size: .8em;
-    font-weight: 600;
+    font-weight: 500;
     color: #8e8e8e;
 }
 
